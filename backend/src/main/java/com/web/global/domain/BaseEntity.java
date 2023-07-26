@@ -1,4 +1,4 @@
-package com.web.global.common.domain;
+package com.web.global.domain;
 
 import lombok.AccessLevel;
 import lombok.Getter;
