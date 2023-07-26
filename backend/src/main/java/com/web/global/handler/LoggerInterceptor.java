@@ -20,8 +20,8 @@ public class LoggerInterceptor implements HandlerInterceptor{
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        log.debug("==================== END ======================");
-        log.debug("===============================================");
+    	log.debug("==================== END ======================");
+    	log.debug("===============================================");
         HandlerInterceptor.super.postHandle(request, response, handler, modelAndView);
     }
 }

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --hot",
-    "serve": "vue-cli-service serve",
-    "build": "webpack --watch",
+    "serve": "vue-cli-service serve --port 8081",
+    "build": "vue-cli-service build --watch",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

@@ -1,5 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <h1>❤안뇽 쭈니 리미 첫 프로젝트❤</h1>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
