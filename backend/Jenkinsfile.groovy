@@ -27,8 +27,8 @@ pipeline {
 
         stage("Build") {
             steps {
-                sh "pwd"
-                //sh "./gradlew clean build"
+                sh "cd backend"
+                sh "./gradlew clean build"
             }
         }
         /*
