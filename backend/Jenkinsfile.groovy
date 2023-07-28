@@ -20,7 +20,7 @@ pipeline {
 
         stage("Checkout") {
             steps {
-                git url: "<https://github.com/yerim0523/kookil_project.git>", branch: "main",
+                git url: "https://github.com/yerim0523/kookil_project.git", branch: "main",
                 credentialsId: "github_access_token1"
             }
         }
