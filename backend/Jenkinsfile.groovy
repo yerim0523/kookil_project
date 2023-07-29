@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        DEPLOY_SERVER_ID = credentials("ubuntu")
-        DEPLOY_SERVER_PASSWORD = credentials("gjdbstj1!!")
+        DEPLOY_SERVER_ID = credentials('ubuntu')
+        DEPLOY_SERVER_PASSWORD = credentials('gjdbstj1!!')
         SECRET_KEY = credentials('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')
         DB_USERNAME = credentials('ubuntu')
         DB_PASSWORD = credentials('gjdbstj1!!')
